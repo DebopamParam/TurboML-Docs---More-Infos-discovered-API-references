@@ -24,16 +24,16 @@ A high-quality Q&A dataset about TurboML - a real-time machine learning platform
 | `context_sections` | list[str] | All documentation sections in context |
 | `generation_timestamp_ns` | int64 | Nanosecond timestamp of answer generation |
 
-### Dataset Statistics
-| Metric | Value |
-|--------|-------|
-| Total Q&A pairs | 1,343 |
-| Average context length | 12,066 tokens (48,265 chars) |
-| Total Engineered Contexts Generated | 89 |
-| Code-containing answers | 832 (62%) |
-| Troubleshooting questions | 403 (30%) |
-| Architecture questions | 269 (20%) |
-| Time of Generation| 28 Feb, 2025 |
+### Dataset Statistics  
+| Metric | Value |  
+|--------|-------|  
+| Total Q&A pairs | 1,343 |  
+| Average context length | 12,066 tokens (48,265 chars) |  
+| Total Engineered Contexts Generated | 89 |  
+| Code-containing answers | 953 (71%) |  
+| Troubleshooting questions | 277 (21%) |  
+| Architecture questions | 113 (8%) |  
+| Time of Generation | 28 Feb, 2025 |
 
 ## Data Sources
 
